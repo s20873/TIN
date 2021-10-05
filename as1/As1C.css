@@ -1,0 +1,16 @@
+img.left{
+    float: left;
+}
+img.right{
+    float: right;
+}
+.col{
+    float: left;
+    width: 44%;
+    margin: 3%;
+}
+.main::after{
+    content: "";
+    display: table;
+    clear: both;
+}

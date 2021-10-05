@@ -1,0 +1,17 @@
+.paragraphStyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+table, th, td{
+    border-color: black;
+    border-style: solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: square;
+}
