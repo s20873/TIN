@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AsA.css">
+</head>
+<body>
+    <form>
+        <label for="fname" class="mandatory">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="password" class="mandatory">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="checkbox" class="mandatory">I agree for processing my data:</label><br>
+        <input type="checkbox" id="checkbox" name="checkbox"><br>
+
+        <label for="radio" class="nonmandatory">Choose a colour:</label><br>
+        <input type="radio" id="radio" name="radio" value="green">Green<br>
+        <input type="radio" id="radio" name="radio" value="blue">Blue<br>
+        <input type="radio" id="radio" name="radio" value="black">Black<br>
+        <input type="radio" id="radio" name="radio" value="red">Red<br>
+
+        <label for="ddlist" class="nonmandatory">Choose a pet:</label><br>
+        <select name="pet">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="fish">Fish</option>
+        </select><br>
+
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="write smth about yourself"></textarea><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+form, input, select{
+    font-size: 14pt;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mandatory{
+    background-color: greenyellow;
+    color:crimson;
+}
+
+.nonmandatory{
+    background-color: greenyellow;
+    color:black;
+}
