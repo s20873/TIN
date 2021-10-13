@@ -1,0 +1,47 @@
+.content{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    background-color: rgb(205, 255, 89);
+}
+
+.banner{
+    width: 96%;  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+}
+
+h1{
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.article{
+    margin: 10px;
+    border-color: hotpink;
+    border-width: 1px;
+    border-style: solid;
+    background-color: lightpink;
+    padding: 10px;
+    text-align: justify;
+}
+
+.link{
+    color:blue;
+}
+
+.link:hover{
+    color: rgb(55, 82, 1);
+}
