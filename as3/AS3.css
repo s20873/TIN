@@ -1,0 +1,129 @@
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+    }
+  
+    .content {
+      grid-area: content;
+    }
+  
+    .header {
+      grid-area: header;
+    }
+  
+    .footer {
+      grid-area: footer;
+    }
+  
+    .wrapper {
+      color: rgb(37, 37, 37);
+    }
+  
+    .wrapper {
+      width: 100%;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-areas:
+       "header"
+       "content"
+       "footer"
+       "sidebar"
+    }
+
+  .columns{
+    column-count: 1;
+  }
+  
+    @media only screen and (min-width: 800px)   {
+      .wrapper {
+        grid-gap: 20px;
+        grid-template-columns: 37% 63%;
+        grid-template-areas:
+        "header  header"
+        "sidebar content"
+        "footer  footer";
+        max-width: 100%;
+      }
+
+      .columns{
+        column-count: 2;
+      }   
+    }
+
+    @media only screen and (min-width: 1200px)   {
+      .columns{
+        column-count: 3;
+      }    
+    }
+  
+  .box {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+
+  img.header{
+    width: 200px;
+    border-radius: 10%;
+    border: black;
+    border-style: solid;
+    border-width: 2pt;
+    transform: rotate(20deg);
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(32, 32, 32));
+    filter: drop-shadow(5px 5px 5px rgb(32, 32, 32));
+  }
+
+  .header{
+    font-size: 16pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  figure{
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+  img.figure{
+    width: 200px;
+  }
+
+  img.content{
+    float: left;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .pquote{
+    float: right;
+    width: 100px;
+    font-style: italic;
+    color: rgb(247, 113, 113);
+    padding: 10px;
+    margin: 0 5px 0 5px
+  }
+
+  .pquote::first-letter{
+    font-size: 20pt;
+    font-weight: bold;
+  }
+
+  .footer{
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
