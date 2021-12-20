@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <select name="from" id="from">
+                <option value="cel">Celsius to</option>
+                <option value="kel">Kelvin to</option>
+                <option value="fah">Fahrenheit to</option>
+            </select>
+
+            <input id="temp" type="number">
+
+            <select name="to" id="to">
+                <option value="cel">Celsius</option>
+                <option value="kel">Kelvin</option>
+                <option value="fah">Fahrenheit</option>
+            </select>
+
+            <input type="button" value="Convert temperature" id="convertTemp">
+        </form>
+    </div>
+    <div>
+        <form>
+            <select name="dis" id="dis">
+                <option value="kil">To kilometers</option>
+                <option value="mil">To miles</option>
+            </select>
+
+            <input id="dist" type="number">
+
+            <input type="button" value="Convert distance" id="convertDist">
+        </form>
+    </div>
+
+    <p id="tempResult"></p>
+    <p id="distResult"></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
