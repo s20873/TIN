@@ -1,0 +1,68 @@
+.title, .header, h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #eff5fc;
+    padding: 20px;
+}
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.buttons{
+    justify-content: center;
+}
+
+.background{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: #eff5fc;
+}
+
+.button{
+    margin-top: 30px;
+    padding: 15px 60px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: white;
+}
+
+#submit  {
+    background-color: dodgerblue;
+}
+  
+#submit:hover {
+    background-color: royalblue;
+}
+
+#stop  {
+    background-color: rgb(241, 108, 75);
+}
+  
+#stop:hover {
+    background-color: rgb(255, 66, 66);
+}
+
+
+@media screen and (max-width: 500px){
+    #background{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+#timer{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
