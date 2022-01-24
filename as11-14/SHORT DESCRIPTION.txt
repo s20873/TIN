@@ -1,0 +1,5 @@
+This is a game-clicker: virus appears and you kill it by clicking on it. 
+
+ - It is playable
+ - There is title-page, game and the ending
+ - Scores are counted and the best score is saved
